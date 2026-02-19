@@ -4,7 +4,7 @@ const Contact = () => {
 
     const bg = new URL('../../assets/bg/02.jpg', import.meta.url).href;
   return (
-    <div className='h-200 bg-blue-950 flex items-center gap-20 bg-cover bg-right '>
+    <div className='h-200 bg-blue-950 flex items-center gap-20 bg-cover bg-right mb-22 '>
             <div className='flex justify-center flex-col items-center w-1/2'>
                 <h2 className='text-white mb-5 text-6xl'>Take the first step</h2>
                 <p className='text-white text-lg text-center'>Contact us for a free 30-minute discovery call.</p>
