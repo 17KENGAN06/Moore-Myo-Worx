@@ -31,7 +31,7 @@ const Service = () => {
         <div className='bg-blue-950 flex h-150 w-1/3 p-10 pr-20 flex-col'>
             <img src="src/assets/icons/03.png" alt="logo" className='h-12 w-12 mb-10'/>
             <div className='text-white text-2xl mb-10'>Find out if you are a good candidate for our Accelerated Recovery Program (ARP).</div>
-            <button className='bg-orange-500 text-sm p-5 text-white cursor-pointer'>BOOK A FREE CONSULTATION</button>
+            <button className='bg-orange-500 text-sm p-5 text-white cursor-pointer uppercase w-60'>request an appointment</button>
         </div>
     </div> 
   )
