@@ -1,25 +1,83 @@
-import React from 'react'
+import React from 'react';
 
 const Contact = () => {
-
-    const bg = new URL('../../assets/bg/02.jpg', import.meta.url).href;
   return (
-    <div className='h-200 bg-blue-950 flex items-center gap-20 bg-cover bg-right '>
-            <div className='flex justify-center flex-col items-center w-1/2'>
-                <h2 className='text-white mb-5 text-6xl'>Take the first step</h2>
-                <p className='text-white text-lg text-center'>Contact us for a free 30-minute discovery call.</p>
-                <p className='text-white font-medium text-lg mb-5 text-center'>Call us at 519-837-0701 or fill in the form below</p>
-                <p className='text-white font-medium text-lg mb-5 text-center w-2/3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum atque quam corporis ducimus nisi blanditiis debitis! Labore 
-                    ea nobis illo sed ab repellat vel! Delectus consequuntur eos corporis magnam pariatur maiores. Omnis, odio assumenda quos 
-                    fugiat laboriosam molestiae ipsa labore eligendi veniam! Quod, ipsam corrupti odit unde voluptas ex iure? Consectetur, fuga id. 
-                    Placeat molestias, perspiciatis asperiores rem corrupti ex ratione vero dolorem, laborum totam fugiat ullam neque maxime 
-                    facilis nesciunt non repellendus hic dolorum alias quia odio provident est quibusdam! Reprehenderit odit, laudantium odio aliquam 
-                    quam perspiciatis illo, esse illum mollitia dolorum laborum commodi, blanditiis atque facere expedita ea?</p>
-
+    <div className="px-5 mb-15">
+      <div className="bg-navy-500">
+        <div className="py-8 px-6">
+          <h2 className="text-white text-center text-2xl font-bold mb-2">Take the first step</h2>
+          <div className="text-silver-900 text-center mb-1">
+            Contact us for a free 30-minute discovery call.
+          </div>
+          <div className="text-silver-900 text-center font-bold mb-8">
+            Call us at 519-837-0701 or fill in the form below
+          </div>
+          <form action="#" method="post">
+            <fieldset className="border-silver-500 border-2 p-2 mb-5 focus:border-coral-500">
+              <legend className="text-white ml-2 px-1">Name</legend>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                className="text-white w-fullborder-none outline-none"
+              />
+            </fieldset>
+            <fieldset className="border-silver-500 border-2 p-2 mb-5">
+              <legend className="text-white text-sm ml-2 px-1">Last Name</legend>
+              <input
+                type="text"
+                id="last-name"
+                name="last-name"
+                className="text-white w-fullborder-none outline-none"
+              />
+            </fieldset>
+            <fieldset className="border-silver-500 border-2 p-2 mb-5">
+              <legend className="text-white text-sm ml-2 px-1">Email</legend>
+              <input
+                type="text"
+                id="email"
+                name="email"
+                className="text-white w-fullborder-none outline-none"
+              />
+            </fieldset>
+            <fieldset className="border-silver-500 border-2 p-2 mb-5">
+              <legend className="text-white text-sm ml-2 px-1">Phone</legend>
+              <input
+                type="text"
+                id="phone"
+                name="phone"
+                className="text-white w-fullborder-none outline-none"
+              />
+            </fieldset>
+            <fieldset className="border-silver-500 border-2 p-2 mb-4">
+              <legend className="text-white text-sm ml-2 px-1">Message</legend>
+              <textarea
+                name="message"
+                id="message"
+                className="text-white w-fullborder-none outline-none"
+              ></textarea>
+            </fieldset>
+            <button
+              type="submit"
+              className="bg-coral-500 text-white text-base font-semibold uppercase p-5.5 w-full mb-5 shadow-coralGlow"
+            >
+              request an appointment
+            </button>
+            <div className="flex gap-2 items-start ">
+              <input type="checkbox" id="agree" name="agree" className="w-4 h-4 mt-1" />
+              <label htmlFor="agree" className="text-sm text-silver-500">
+                I consent to receive email updates including newsletters and announcements from
+                Moore MyoWorx
+              </label>
             </div>
-            <div style={{ backgroundImage: `url(${bg})` }} className='h-full w-1/2 bg-cover bg-center'></div>
+          </form>
+        </div>
+        <div>
+          <img src="../../assets/bg/02.jpg" alt="content" className="w-full" />
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

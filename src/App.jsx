@@ -1,18 +1,20 @@
 import React from 'react';
-import Navbar from './components/Navbar/Navbar';
+import Header from './components/header/header';
 import Hero from './components/Hero/Hero';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
+import Services from './components/Services/Services';
 
 const App = () => {
   return (
     <>
-    <Navbar />
-    <Hero />
-    <About/>
-    <Contact/>
-  </>
-  )
+      <Header />
+      <Hero />
+      <About />
+      <Contact />
+      <Services />
+    </>
+  );
 };
 
 export default App;
