@@ -9,6 +9,7 @@ import Stories from './components/Stories/Stories';
 import Reviews from './components/Reviews/Reviews';
 import Meet from './components/Meet/Meet';
 import Team from './components/Team/Team';
+import Results from './components/Results/Results';
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
       <Reviews/>
       <Meet/>
       <Team/>
+      <Results/>
     </>
   );
 };

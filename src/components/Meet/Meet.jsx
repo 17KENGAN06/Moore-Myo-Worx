@@ -15,7 +15,6 @@ const Meet = () => {
         <div>
             <div className='text-2xl text-center font-bold mb-4'>Meet Our Team</div>
             <div className='text-base text-center opacity-85'>At the core of Moore MyoWorx’s successful treatment plans is our team of devoted professionals. Our interdisciplinary team consists of neuromuscular therapy experts, physical therapists, and concussion specialists, all sharing the goal to provide exceptional care.</div>
-            <img src="../../assets//cory.png" alt="content" className='mb-4' />
         </div>
     </div>
   )
