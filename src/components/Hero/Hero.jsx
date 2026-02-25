@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Hero = () => {
-<<<<<<< HEAD
   return (
     <div className="bg-blue-950 flex flex-col gap-15 px-5 pt-5 pb-10">
       <div>
@@ -25,9 +24,5 @@ const Hero = () => {
     </div>
   );
 };
-=======
-  return {}
-}
->>>>>>> c70dee199da81105f5c26b529a26faa130a26af0
 
 export default Hero;

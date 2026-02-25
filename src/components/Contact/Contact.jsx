@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Contact = () => {
-<<<<<<< HEAD
   return (
     <div className="px-5 mb-15">
       <div className="bg-navy-500">
@@ -80,10 +79,5 @@ const Contact = () => {
     </div>
   );
 };
-=======
-
-  return {}
-}
->>>>>>> c70dee199da81105f5c26b529a26faa130a26af0
 
 export default Contact;

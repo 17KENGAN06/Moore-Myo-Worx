@@ -1,7 +1,6 @@
 import React from 'react';
 
 const About = () => {
-<<<<<<< HEAD
   return (
     <div className="py-12 px-5">
       <div className="mb-7">
@@ -31,9 +30,5 @@ const About = () => {
     </div>
   );
 };
-=======
-  return {}
-}
->>>>>>> c70dee199da81105f5c26b529a26faa130a26af0
 
 export default About;
