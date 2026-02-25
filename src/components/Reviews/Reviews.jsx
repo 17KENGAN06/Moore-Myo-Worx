@@ -22,8 +22,6 @@ const Reviews = () => {
                 <div className='text-blue-400 text-base mb-3'>Phil</div>
                 <p className='text-base'>“Two weeks with ARP helped me pinpoint the causes of my simptoms and finally make real progress in my recovery”</p>
             </div>
-            <div></div>
-            <div></div>
         </div>
     </div>
   )
